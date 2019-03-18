@@ -6,7 +6,7 @@ Pod::Spec.new do |tapBundleLocalization|
     tapBundleLocalization.name                     = 'TapBundleLocalization'
     tapBundleLocalization.summary                  = 'Utility to load the localization from the bundle. Might be useful when you have dynamic language change feature inside the app.'
     tapBundleLocalization.requires_arc             = true
-    tapBundleLocalization.version                  = '1.0'
+    tapBundleLocalization.version                  = '1.0.1'
     tapBundleLocalization.license                  = { :type => 'MIT', :file => 'LICENSE' }
     tapBundleLocalization.author                   = { 'Tap Payments' => 'hello@tap.company' }
     tapBundleLocalization.homepage                 = 'https://github.com/Tap-Payments/TapBundleLocalization-iOS'

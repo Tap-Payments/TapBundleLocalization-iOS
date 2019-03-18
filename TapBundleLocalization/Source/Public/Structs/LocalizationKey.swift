@@ -24,3 +24,12 @@ public struct LocalizationKey {
 		self.rawValue = rawValue
 	}
 }
+
+// MARK: - Equatable
+extension LocalizationKey: Equatable {
+	
+	public static func == (lhs: LocalizationKey, rhs: LocalizationKey) -> Bool {
+		
+		return lhs.rawValue == rhs.rawValue
+	}
+}
